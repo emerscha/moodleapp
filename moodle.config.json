@@ -9,8 +9,6 @@
     "cache_update_frequency_rarely": 43200000,
     "default_lang": "pt-br",
     "languages": {
-        "en-us": "English - United States",
-        "es": "Español",
         "pt-br": "Português - Brasil"
     },
     "wsservice": "moodle_mobile_app",
