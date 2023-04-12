@@ -19,7 +19,7 @@
         "high": 120
     },
     "customurlscheme": "moodlemobile",
-    "sites": ["https://ava.sesisenai.org.br"],
+    "sites": [],
     "multisitesdisplay": "",
     "sitefindersettings": {},
     "onlyallowlistedsites": true,
