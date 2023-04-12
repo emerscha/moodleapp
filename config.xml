@@ -1,13 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<<<<<<< HEAD
 <widget android-versionCode="41100" id="com.moodle.moodlemobile" ios-CFBundleVersion="4.1.1.0" version="4.1.1" versionCode="41100" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>AVA SESI/SENAI - SC</name>
-=======
-<widget android-versionCode="41100" id="com.moodle.avasenaisc" ios-CFBundleVersion="4.1.1.0" version="4.1.1" versionCode="41100" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>AVA SESI/SENAI-SC</name>
->>>>>>> 23d235b0cf50028603ed299eb990b5c51bf0dbd5
     <description>Ambiente Virtual de Aprendizagem - SESI/SENAI - SC</description>
-    <author email="online@sc.senai.br" href="https://sc.senai.br/">Equipe AVA SESI SENAI - SC</author>
+    <author email="online@sc.senai.br" href="https://sc.senai.br/">Equipe AVA SESI/SENAI - SC</author>
     <preference name="url" value="https://ava.sesisenai.org.br" />
     <content src="index.html" />
     <access origin="*" />
