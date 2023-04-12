@@ -1,6 +1,6 @@
 {
     "app_id": "com.moodle.moodlemobile",
-    "appname": "AVA SENAI/SC",
+    "appname": "AVA SESI/SENAI - SC",
     "versioncode": 41100,
     "versionname": "4.1.1",
     "cache_update_frequency_usually": 420000,
@@ -19,12 +19,12 @@
         "high": 120
     },
     "customurlscheme": "moodlemobile",
-    "sites": [],
+    "sites": ["https://ava.sesisenai.org.br"],
     "multisitesdisplay": "",
     "sitefindersettings": {},
-    "onlyallowlistedsites": false,
+    "onlyallowlistedsites": true,
     "skipssoconfirmation": false,
-    "forcedefaultlanguage": false,
+    "forcedefaultlanguage": true,
     "privacypolicy": "https://moodle.net/moodle-app-privacy/",
     "notificoncolor": "#f98012",
     "enableanalytics": false,
