@@ -160,7 +160,7 @@ export class CoreLoginSitePage implements OnInit {
 
         if (!onboardingDone) {
             // Check onboarding.
-            this.showOnboarding();
+            //this.showOnboarding();
         }
     }
 

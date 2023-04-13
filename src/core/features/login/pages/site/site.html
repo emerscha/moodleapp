@@ -22,6 +22,8 @@
         </div>
         <form [formGroup]="siteForm" (ngSubmit)="connect($event, siteForm.value.siteUrl)" *ngIf="!fixedSites && siteForm" #siteFormEl>
             <!-- Form to input the site URL if there are no fixed sites. -->
+
+            <!--
             <ng-container *ngIf=" siteSelector=='url'">
                 <ion-item>
                     <ion-label position=" stacked">
@@ -32,7 +34,10 @@
                     </ion-input>
                 </ion-item>
             </ng-container>
-            <ng-container *ngIf="siteSelector != 'url'">
+        -->
+            <!--<ng-container *ngIf="siteSelector != 'url'">-->
+            <ng-container>
+                <!--
                 <ion-item>
                     <ion-label position="stacked">
                         <h2>{{ 'core.login.siteaddress' | translate }}</h2>
@@ -41,21 +46,25 @@
                         [core-auto-focus]="showKeyboard && !showScanQR" (ionChange)="searchSite($event, siteForm.value.siteUrl)">
                     </ion-input>
                 </ion-item>
+            -->
 
-                <ion-list [class.hidden]="!hasSites && !enteredSiteUrl" class="core-login-site-list">
+                <ion-list class="core-login-site-list">
                     <ion-item class="core-login-site-list-title">
                         <ion-label>
                             <h2 class="item-heading">{{ 'core.login.selectsite' | translate }}</h2>
                         </ion-label>
                     </ion-item>
-                    <ion-item button *ngIf="enteredSiteUrl" (click)="connect($event, enteredSiteUrl.url)"
+                    <!-- AQUI -->
+                    <!--<ion-item button *ngIf="enteredSiteUrl" (click)="connect($event, enteredSiteUrl.url)"-->
+                    <ion-item button (click)="connect($event, 'https://ava.sesisenai.org.br')"
                         [attr.aria-label]="'core.login.connect' | translate" detail="true" class="core-login-entered-site">
                         <ion-thumbnail slot="start" aria-hidden="true">
                             <ion-icon name="fas-pen" aria-hidden="true"></ion-icon>
                         </ion-thumbnail>
                         <ion-label>
                             <h2 class="ion-text-wrap">{{ 'core.login.yourenteredsite' | translate }}</h2>
-                            <p>{{enteredSiteUrl.noProtocolUrl}}</p>
+                            <!--<p>{{enteredSiteUrl.noProtocolUrl}}</p>-->
+                            <p>ava.sesisenai.org.br</p>
                         </ion-label>
                     </ion-item>
 
